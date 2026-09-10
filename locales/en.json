@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "about": "About Us",
+    "services": "Services & Prices",
+    "masters": "Barbers",
+    "contacts": "Contacts"
+  },
+  "header": {
+    "phone": "+38 044 111 11 11",
+    "bookOnline": "book online",
+    "subtitle": "A hair salon for men in Kyiv",
+    "title": "BarberShop",
+    "promise": "We are experts in trendy men's haircuts. We work quickly, carefully, and with taste."
+  },
+  "about": {
+    "subtitle": "ABOUT US",
+    "title": "The best Barbershop in your city",
+    "desc1": "If you want to add more confidence to your look, you definitely need to visit us.",
+    "desc2": "We are a team that never stops and constantly craves changes. Once you fall into the hands of our master, you will never be the same again. We are a team that is always on the same wavelength with the clients. Therefore, we are always ready to perfect everyone who comes to us!",
+    "bookBtn": "book online"
+  },
+  "services": {
+    "subtitle": "Spend time in the company of the best masters",
+    "title": "Services and Prices",
+    "items": {
+      "haircut": "Men's Haircut",
+      "beard": "Beard Trim",
+      "mustache": "Mustache Trim",
+      "shave": "Straight Razor Shave",
+      "trainee": "Trainee Haircut",
+      "clipper": "Clipper Haircut",
+      "kids": "Kids Haircut (up to 12 years)",
+      "gray": "Gray Hair Camouflage"
+    },
+    "from": "from",
+    "currency": "UAH",
+    "bookBtn": "book online"
+  },
+  "stats": {
+    "clients": "Satisfied clients per day",
+    "awards": "Awards for excellent service",
+    "masters": "Best barbers in Kyiv",
+    "gifts": "Gifts for regular clients",
+    "subtitle": "Old traditional school",
+    "title": "Why do people come to us?",
+    "desc": "People only say good things about us. But it's better to see and feel once than to read 10 times."
+  },
+  "masters": {
+    "subtitle": "for true connoisseurs of atmosphere",
+    "title": "Our Barbers",
+    "role": "Extreme Barber"
+  },
+  "beard": {
+    "quote": "In Latin, “barba” means “beard”"
+  },
+  "contact": {
+    "formTitle": "Online Booking",
+    "name": "Name",
+    "phone": "Phone",
+    "message": "Message",
+    "submit": "submit",
+    "success": "Form submitted successfully!",
+    "infoTitle": "Contacts",
+    "address": "Vasylkivska St, 7A Kyiv, 08132",
+    "email": "barbershop@email.com",
+    "workingHoursLabel": "working hours",
+    "workingHours": "Daily from 9:00 to 22:00"
+  }
+}
