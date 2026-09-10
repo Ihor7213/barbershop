@@ -16,7 +16,7 @@ export default function Hero() {
         fill
         priority
         sizes="100vw"
-        className="hidden object-cover object-[right_center] md:block"
+        className="hidden scale-x-[1.005] object-cover object-[right_center] md:block"
       />
       <Image
         src="/images/Header_media-768px.jpg"
@@ -24,7 +24,7 @@ export default function Hero() {
         fill
         priority
         sizes="100vw"
-        className="object-cover object-center md:hidden"
+        className="scale-x-[1.005] object-cover object-center md:hidden"
       />
       <Header />
       
@@ -37,7 +37,7 @@ export default function Hero() {
             </p>
           </div>
           
-          <h1 className="font-bold text-[43px] md:text-[58px] tracking-[0.05em] text-white mt-5 mb-[30px] font-mono">
+          <h1 className="font-bold text-[43px] md:text-[58px] tracking-[0.05em] text-white mt-5 mb-[30px]">
             {t.header.title}
           </h1>
           

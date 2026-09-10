@@ -18,7 +18,7 @@ export default function Services() {
           </p>
         </div>
         
-        <h2 className="font-bold text-[42px] tracking-[0.05em] text-white mt-5 mb-11 font-mono">
+        <h2 className="font-bold text-[42px] tracking-[0.05em] text-white mt-5 mb-11">
           {t.services.title}
         </h2>
 
@@ -34,7 +34,7 @@ export default function Services() {
             ].map((item, index) => (
               <div key={index} className="flex justify-between items-end text-[#9da4bd] font-normal text-[12px] sm:text-[15px] md:text-[18px] leading-[167%] tracking-[0.02em]">
                 <span>{item.name}</span>
-                <div className="flex-1 border-b border-[rgba(255,255,255,0.2)] -translate-y-[3px] sm:-translate-y-[6px] mx-2"></div>
+                <div className="flex-1 border-b border-dotted border-[#9da4bd]/70 -translate-y-[3px] sm:-translate-y-[6px] mx-2"></div>
                 <span className="whitespace-nowrap">{t.services.from} {item.price} {t.services.currency}</span>
               </div>
             ))}
@@ -50,7 +50,7 @@ export default function Services() {
             ].map((item, index) => (
               <div key={index} className="flex justify-between items-end text-[#9da4bd] font-normal text-[12px] sm:text-[15px] md:text-[18px] leading-[167%] tracking-[0.02em]">
                 <span>{item.name}</span>
-                <div className="flex-1 border-b border-[rgba(255,255,255,0.2)] -translate-y-[3px] sm:-translate-y-[6px] mx-2"></div>
+                <div className="flex-1 border-b border-dotted border-[#9da4bd]/70 -translate-y-[3px] sm:-translate-y-[6px] mx-2"></div>
                 <span className="whitespace-nowrap">{t.services.from} {item.price} {t.services.currency}</span>
               </div>
             ))}

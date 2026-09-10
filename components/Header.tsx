@@ -61,9 +61,9 @@ export default function Header() {
               </Link>
             </div>
             <div className="flex gap-4 pb-10">
-              <button onClick={() => { handleLangChange("uk"); toggleMenu(); }} className={`font-semibold text-sm tracking-widest ${language === "uk" ? "text-[#ff6c00]" : "text-[#303030]"}`}>UK</button>
-              <button onClick={() => { handleLangChange("en"); toggleMenu(); }} className={`font-semibold text-sm tracking-widest ${language === "en" ? "text-[#ff6c00]" : "text-[#303030]"}`}>EN</button>
-              <button onClick={() => { handleLangChange("ru"); toggleMenu(); }} className={`font-semibold text-sm tracking-widest ${language === "ru" ? "text-[#ff6c00]" : "text-[#303030]"}`}>RU</button>
+              <button onClick={() => { handleLangChange("uk"); toggleMenu(); }} className={`font-semibold text-sm tracking-widest transition-colors hover:text-[#ff6c00] ${language === "uk" ? "text-[#ff6c00]" : "text-[#303030]"}`}>UK</button>
+              <button onClick={() => { handleLangChange("en"); toggleMenu(); }} className={`font-semibold text-sm tracking-widest transition-colors hover:text-[#ff6c00] ${language === "en" ? "text-[#ff6c00]" : "text-[#303030]"}`}>EN</button>
+              <button onClick={() => { handleLangChange("ru"); toggleMenu(); }} className={`font-semibold text-sm tracking-widest transition-colors hover:text-[#ff6c00] ${language === "ru" ? "text-[#ff6c00]" : "text-[#303030]"}`}>RU</button>
             </div>
           </div>
         </div>
@@ -82,11 +82,11 @@ export default function Header() {
         <div className="hidden md:flex items-center gap-4 h-full">
           {/* Language Switcher */}
           <div className="flex gap-2 mr-2">
-            <button onClick={() => handleLangChange("uk")} className={`font-semibold text-xs tracking-wider transition-colors ${language === "uk" ? "text-[#ff6c00]" : "text-white hover:text-gray-300"}`}>UK</button>
+            <button onClick={() => handleLangChange("uk")} className={`font-semibold text-xs tracking-wider transition-colors hover:text-[#ff6c00] ${language === "uk" ? "text-[#ff6c00]" : "text-white"}`}>UK</button>
             <span className="text-white/50">|</span>
-            <button onClick={() => handleLangChange("en")} className={`font-semibold text-xs tracking-wider transition-colors ${language === "en" ? "text-[#ff6c00]" : "text-white hover:text-gray-300"}`}>EN</button>
+            <button onClick={() => handleLangChange("en")} className={`font-semibold text-xs tracking-wider transition-colors hover:text-[#ff6c00] ${language === "en" ? "text-[#ff6c00]" : "text-white"}`}>EN</button>
             <span className="text-white/50">|</span>
-            <button onClick={() => handleLangChange("ru")} className={`font-semibold text-xs tracking-wider transition-colors ${language === "ru" ? "text-[#ff6c00]" : "text-white hover:text-gray-300"}`}>RU</button>
+            <button onClick={() => handleLangChange("ru")} className={`font-semibold text-xs tracking-wider transition-colors hover:text-[#ff6c00] ${language === "ru" ? "text-[#ff6c00]" : "text-white"}`}>RU</button>
           </div>
           <Link href="#contacts">
             <button className="font-semibold text-sm tracking-[0.09em] uppercase whitespace-nowrap text-white border-2 border-[#ff6c00] rounded-[25px] px-[18px] py-[12px] hover:bg-[#ff6c00] transition-colors">
